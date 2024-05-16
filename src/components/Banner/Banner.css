@@ -1,0 +1,16 @@
+/* styles.css */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;           
+    height: auto;           
+    margin: 0;              
+    padding: 0;             
+  }
+  
+  .banner {
+    width: 100%;             
+    height: auto;           
+  }
+  
