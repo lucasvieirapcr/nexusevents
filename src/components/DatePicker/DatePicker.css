@@ -1,0 +1,32 @@
+ 
+.date-picker-container {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .date-picker-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+  
+ 
+  input[type="date"] {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;     /*isso vai tirar a puxadinha para o lado*/
+  }
+  
+ 
+  .date-selected {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
