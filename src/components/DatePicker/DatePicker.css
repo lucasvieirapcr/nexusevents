@@ -5,6 +5,7 @@
   
  
   .date-picker-label {
+    color: white;
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
@@ -20,6 +21,8 @@
     border: none;
     font-size: 24px;
     padding: 24px;
+    color: white;
+    background-color: #BA66F2;
     box-sizing: border-box;     /*isso vai tirar a puxadinha para o lado*/
   }
   
