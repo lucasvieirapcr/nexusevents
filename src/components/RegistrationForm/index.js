@@ -3,9 +3,20 @@ import React from 'react';
 import TextField from '../TextField';
 import DatePicker from '../DatePicker';
 import TimePicker from '../TimePicker';
+import DropdownList from '../DropdownList';
 
 
 const RegistrationForm = () => {
+
+    const atracao = [
+        'Sertanejo',
+        'Trap',
+        'Pagode',
+        'Eletrônica',
+        'Rap',
+        'Funk'
+    ]
+
     return (
         <section className='regitrationForm'>
             <form>
@@ -14,6 +25,7 @@ const RegistrationForm = () => {
                 <TextField  label="Imagem" placeholder="Coloque uma foto da atração" />
                 <DatePicker label="Selecione a Data"/>
                 <TimePicker label="Selecione o horário:"/>
+                <DropdownList label="Selecione o gênero dessa atração" itens={atracao} />
             </form>
         </section>
     )

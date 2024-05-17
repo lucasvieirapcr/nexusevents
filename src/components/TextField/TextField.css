@@ -25,3 +25,7 @@
 .text-field ::placeholder{
     color: white;
 }
+
+.text-field input:hover{
+    background-color: #b35aef;
+}

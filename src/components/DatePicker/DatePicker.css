@@ -32,4 +32,6 @@
     font-size: 14px;
     color: #666;
   }
-  
+  input:hover {
+    background-color: #b35aef;
+}

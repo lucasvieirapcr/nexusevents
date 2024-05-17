@@ -1,29 +1,26 @@
-.timeInput {
-    color: white;
+.dropdown-list{
+    margin: 24px 0;
+}
+
+.dropdown-list label{
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
-  }
-  
+    color: white;
+}
 
-  input[type="time"] {
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 16px;
+.dropdown-list select {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    width: 100pw;
+    width: 100%;
     border: none;
+    border-radius: 5px;
     font-size: 24px;
     padding: 24px;
     color: white;
     background-color: #BA66F2;
     box-sizing: border-box;     /*isso vai tirar a puxadinha para o lado*/
-  }
-  
-  .timeInput ::placeholder{
-    color: white;
-  }
+}
 
-  #timeInput input:hover{
+.dropdown-list select:hover{
     background-color: #b35aef;
 }
