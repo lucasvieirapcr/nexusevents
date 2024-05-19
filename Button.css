@@ -1,0 +1,22 @@
+.button {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    color: #FFF;
+    margin: 32px 0;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #57F2B9, #BA66F2, #7F4F8C );
+    border-image-slice: 1;
+    background-color: transparent;
+    transition: border-image 0.9s ease;
+    border-radius: 10px;
+    animation: melt 1s ease-in-out infinite; /* Aplica a animação de derretimento */
+   transition: background-color 0.7s ease; /* Adiciona uma transição suave para a cor de fundo */
+    
+}
+
+.button:hover {
+    border-radius: 10px;
+    border-color: #57F2B9;
+    background-color: #57F2B9;
+}
