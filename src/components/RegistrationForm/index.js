@@ -4,6 +4,7 @@ import TextField from '../TextField';
 import DatePicker from '../DatePicker';
 import TimePicker from '../TimePicker';
 import DropdownList from '../DropdownList';
+import Button from '../Button';
 
 
 const RegistrationForm = () => {
@@ -26,6 +27,9 @@ const RegistrationForm = () => {
                 <DatePicker label="Selecione a Data"/>
                 <TimePicker label="Selecione o horário:"/>
                 <DropdownList label="Selecione o gênero dessa atração" itens={atracao} />
+                <Button>
+                    Adicionar Atração
+                </Button>
             </form>
         </section>
     )
