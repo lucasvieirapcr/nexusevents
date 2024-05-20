@@ -14,6 +14,7 @@ function DatePicker(props) {
         {props.label}
       </label>
       <input
+        required={props.obrigatorio}
         type="date"
         id="dateInput"
         name="dateInput"

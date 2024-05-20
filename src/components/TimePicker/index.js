@@ -11,7 +11,8 @@ function TimePicker(props) {
   return (
     <div>
       <label className="timeInput">{props.label}</label>
-      <input
+      <input 
+        required ={props.obrigatorio}
         type="time"
         id="timeInput"
         name="timeInput"
